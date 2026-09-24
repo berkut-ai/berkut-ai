@@ -20,7 +20,7 @@
 - 🏆 Competitive programmer — multiple **ICPC** awards, 100+ solved problems on LeetCode
 - 🐍 Main stack: **Python**, `scikit-learn`, `pandas`, `numpy`, `FastAPI`
 - 🚀 Shipped **2 production-style ML APIs** (fraud detection, wine quality) — deployed and live
-
+- 🧩 Built the entire backend of a team project: async REST API on FastAPI + MongoDB, covered by 50+ pytest tests
 
 ---
 
@@ -67,8 +67,20 @@ Logistic Regression classifier (GridSearchCV-tuned) on 10,000+ labeled messages,
 
 `Python` `scikit-learn` `Telebot`
 
+
 </td>
 </tr>
+
+<tr> <td colspan="2" valign="top">
+
+**🗂 [CV Builder API](https://github.com/MaxYeromenko/cv-app-max-damir)** (team project — I built the whole backend, a teammate built the frontend) [🌐 Live App](https://cv-app-max-damir.vercel.app)
+
+Async REST API with full CRUD, pagination and partial updates via whitelisted dot-notation paths (personal_info.first_name) with full-document re-validation. Strict nested Pydantic v2 schemas, rate limiting, env-based CORS, rotating-file logging, consistent HTTP error handling, and 50+ pytest tests (schemas, database, API).
+
+Python FastAPI MongoDB Pydantic pytest
+
+</td> </tr>
+
 </table>
 
 ---
@@ -100,6 +112,8 @@ Logistic Regression classifier (GridSearchCV-tuned) on 10,000+ labeled messages,
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![MongoDB](https://img.shields.io/badge/Mongo-FCC6?style=for-the-badge&logo=mongodb&logoColor=black)
+
 
 </div>
 
